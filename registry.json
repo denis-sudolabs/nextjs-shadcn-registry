@@ -4,6 +4,49 @@
   "homepage": "https://acme.com",
   "items": [
     {
+      "name": "utils",
+      "type": "registry:lib",
+      "description": "Utility functions for styling and type safety",
+      "dependencies": ["clsx", "tailwind-merge"],
+      "files": [
+        {
+          "path": "registry/utils/utils.ts",
+          "type": "registry:lib",
+          "target": "lib/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "sidebar",
+      "type": "registry:ui",
+      "registryDependencies": [
+        "https://raw.githubusercontent.com/denis-sudolabs/nextjs-shadcn-registry/main/public/r/utils.json",
+        "button",
+        "indicator"
+      ],
+      "dependencies": [
+        "react-icons/hi",
+        "@radix-ui/react-accordion",
+        "@storybook/react"
+      ],
+      "files": [
+        {
+          "path": "registry/ui/sidebar/sidebar.tsx",
+          "type": "registry:component",
+          "target": "components/ui/sidebar.tsx"
+        },
+        {
+          "path": "registry/ui/sidebar/sidebar.stories.tsx",
+          "type": "registry:component",
+          "target": "components/ui/sidebar.stories.tsx"
+        }
+      ],
+      "description": "A responsive sidebar component with storybook integration.",
+      "categories": ["UI", "Layout"],
+      "docs": "Set up the sidebar by importing it into your project and adjusting its props as needed.",
+      "tags": ["sidebar", "layout", "responsive"]
+    },
+    {
       "name": "hello-world",
       "type": "registry:component",
       "title": "Hello World",
