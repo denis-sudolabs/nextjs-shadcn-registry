@@ -11,7 +11,7 @@
   "registryDependencies": [
     "https://raw.githubusercontent.com/denis-sudolabs/nextjs-shadcn-registry/main/public/r/utils.json",
     "button",
-    "indicator"
+    "https://raw.githubusercontent.com/denis-sudolabs/nextjs-shadcn-registry/main/public/r/indicator.json"
   ],
   "files": [
     {
