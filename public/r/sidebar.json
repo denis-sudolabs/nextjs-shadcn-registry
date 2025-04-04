@@ -4,7 +4,7 @@
   "type": "registry:ui",
   "description": "A responsive sidebar component with storybook integration.",
   "dependencies": [
-    "react-icons/hi",
+    "react-icons",
     "@radix-ui/react-accordion",
     "@storybook/react"
   ],
