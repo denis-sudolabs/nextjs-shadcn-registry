@@ -21,8 +21,8 @@
       "type": "registry:ui",
       "registryDependencies": [
         "https://raw.githubusercontent.com/denis-sudolabs/nextjs-shadcn-registry/main/public/r/utils.json",
-        "button",
-        "https://raw.githubusercontent.com/denis-sudolabs/nextjs-shadcn-registry/main/public/r/indicator.json"
+        "https://raw.githubusercontent.com/denis-sudolabs/nextjs-shadcn-registry/main/public/r/indicator.json",
+        "button"
       ],
       "dependencies": [
         "react-icons/hi",
